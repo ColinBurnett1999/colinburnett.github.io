@@ -4,25 +4,9 @@
 
 :root,
 [data-bs-theme=light] {
-  --bs-primary: #01d31a;
+  --bs-primary: #fff;
   --bs-primary-rgb: 46, 72, 58;
   --bs-body-bg: #F6F3ED;
-}
-
-.navbar {
-  bg-color: #01d31a;
-}
-
-.bg-primary {
-  bg-color: #01d31a;
-}
-
-.navbar-light {
-  color: #01d31a;
-}
-
-.navbar-dark {
-  color: #01d31a;
 }
 
 .bg-dark {
@@ -37,16 +21,10 @@
   color: #01d31a;
 }
 
-.navbar {
-  color: #01d31a;
-}
-
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #01d31a;;
-  --bs-btn-border-color: #01d31a;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #01d31a;
+  --bs-btn-hover-bg: #fff;
   --bs-btn-hover-border-color: ##2e483a;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
@@ -70,8 +48,8 @@ h1, h2, h3 {
 
 #hero {
   height: 800px;
-  background-color: #E4E6DB;
-  background-image: url(../images/hero-bg-img.png);
+  background-color: #ffffff;
+  background-image: url();
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
